@@ -1,0 +1,24 @@
+{
+	"$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/plugin-schema.json",
+	"creator": "jopemachine",
+	"name": "arvis-open-setting-plugin",
+	"category": "Productivity",
+	"description": "Open setting by Arvis",
+	"webAddress": "https://github.com/arvis-plugins/arvis-open-setting-plugin",
+	"enabled": true,
+	"defaultIcon": "icon.png",
+	"readme": "",
+	"version": "0.0.1",
+	"main": "index.js",
+  "platform": [
+    "win32",
+    "darwin"
+  ],
+	"actions": [
+    {
+      "type": "open",
+      "modifiers": "normal",
+      "target": "{query}"
+    }
+  ]
+}

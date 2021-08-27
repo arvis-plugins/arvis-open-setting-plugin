@@ -1,0 +1,39 @@
+{
+  "name": "arvis-open-setting-plugin",
+  "version": "0.0.1",
+  "description": "My tiptop module",
+  "license": "MIT",
+  "repository": "jopemachine/arvis-open-setting-plugin",
+  "author": {
+    "name": "jopemachine",
+    "email": "jopemachine@naver.com",
+    "url": "abc.com"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "arvish-init",
+    "preuninstall": "arvish-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "arvis-Plugin.json"
+  ],
+  "keywords": [
+    "arvis",
+    "arvis-Plugin",
+    "arvish"
+  ],
+  "dependencies": {
+    "arvish": "^0.8.1",
+    "open": "^8.2.1"
+  },
+  "devDependencies": {
+    "arvish-test": "^0.1.0",
+    "ava": "^0.18.0",
+    "xo": "^0.17.0"
+  }
+}
