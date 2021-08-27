@@ -2,7 +2,7 @@
   "generator-arvis": {
     "promptValues": {
       "githubUsername": "jopemachine",
-      "website": "http://abc.com"
+      "website": "https://github.com/jopemachine/arvis-open-setting-plugin"
     }
   }
 }

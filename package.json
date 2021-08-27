@@ -1,13 +1,13 @@
 {
   "name": "arvis-open-setting-plugin",
-  "version": "0.0.1",
-  "description": "My tiptop module",
+  "version": "0.0.2",
+  "description": "Open setting by Arvis",
   "license": "MIT",
-  "repository": "jopemachine/arvis-open-setting-plugin",
+  "repository": "arvis-plugins/arvis-open-setting-plugin",
   "author": {
     "name": "jopemachine",
     "email": "jopemachine@naver.com",
-    "url": "abc.com"
+    "url": "https://github.com/arvis-plugins/arvis-open-setting-plugin"
   },
   "engines": {
     "node": ">=12"
