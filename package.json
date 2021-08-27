@@ -1,6 +1,6 @@
 {
   "name": "arvis-open-setting-plugin",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Open setting by Arvis",
   "license": "MIT",
   "repository": "arvis-plugins/arvis-open-setting-plugin",
@@ -28,8 +28,7 @@
     "arvish"
   ],
   "dependencies": {
-    "arvish": "^0.8.1",
-    "open": "^8.2.1"
+    "arvish": "^0.8.1"
   },
   "devDependencies": {
     "arvish-test": "^0.1.0",

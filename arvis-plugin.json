@@ -8,12 +8,15 @@
 	"enabled": true,
 	"defaultIcon": "icon.png",
 	"readme": "",
-	"version": "0.0.2",
+	"version": "0.0.4",
 	"main": "index.js",
   "platform": [
     "win32",
     "darwin"
   ],
+  "variables": {
+    "command": "Open Preference.."
+  },
 	"actions": [
     {
       "type": "open",
